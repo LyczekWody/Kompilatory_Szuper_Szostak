@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     string input;
-    regex pattern("^10*$");
+    regex pattern("^0*10*$");
 
     cout << "Podaj ciag binarny: ";
     cin >> input;
